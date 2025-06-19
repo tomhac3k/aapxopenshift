@@ -1,7 +1,7 @@
 - name: Authenticate and execute a command in Openshift Container Platform
   hosts: localhost
   module_defaults:
-    group/redhat.openshift.openshift:
+    group/commnuity.okd.okd:
       host: https://api.crc.testing:6443
       validate_certs: false
   tasks:
